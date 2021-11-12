@@ -39,7 +39,7 @@ _Author Ical Balino_
     - Number() 
     - Boolean(
 
-"The way to convert from one type to another: **coercion**"
+"The way to convert from one type to another: **coercion**" <br>
 Coercion: string concatenation (number to string)
 
 Falsy = “”,  0, -0, null, NaN, false, undefine
@@ -47,21 +47,20 @@ Falsy = “”,  0, -0, null, NaN, false, undefine
 **Checking Equality ( == vs. === )**
 
 - Loose Equality vs. Strict Equality
-    == checks value (loose) `false`
-    === checks value and type (strict) `false`
+    <br> == checks value (loose) `false`
+    <br> === checks value and type (strict) `false`
 
 - Coercive Equality vs. Non-Coercive Equality
-    == allows coercion (types different) `true`
-    === disallows coercion (types same) `true`
+    <br> == allows coercion (types different) `true`
+    <br> === disallows coercion (types same) `true`
 
-Coercive Equality: == and ===
+Coercive Equality: == and === <br>
 Coercive Equality: null == undefined
 
-when the types are already the same, the double equals and the triple equals
-do exactly the same thing in 100% of all cases.
+when the types are already the same, the double equals and the triple equals do exactly the same thing in 100% of all cases.
 
 kesimpulan :
-== is not about comparisons with unknown types.
-== is about comparisons with known type(s), optionally where conversions are helpful.
-You simply cannot write quality JS programs without knowing the types involved in your operations.
+<br> == is not about comparisons with unknown types.
+<br> == is about comparisons with known type(s), optionally where conversions are helpful.
+<br> You simply cannot write quality JS programs without knowing the types involved in your operations.
 
