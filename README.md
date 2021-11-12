@@ -76,14 +76,14 @@ undefined is a variable that has been declared, but it doesn't have a value. and
 undeclared is a variable that was never declared anywhere.
 
 **Function Expressions**
-function expression is a function that is assigned as a value someware
-<br>* Named function expressions
-<br>* Anonymous function expressions
-<br>* Arrow Functions
-<br>* [Function Scoping: IIFE](https://benalman.com/news/2010/11/immediately-invoked-function-expression/)
-<br>* Block Scoping
-<br>* Block Scoping: encapsulation
-<br>* Block Scoping: explicit let block
+<br> function expression is a function that is assigned as a value someware
+<br> * Named function expressions
+<br> * Anonymous function expressions
+<br> * Arrow Functions
+<br> * [Function Scoping: IIFE](https://benalman.com/news/2010/11/immediately-invoked-function-expression/)
+<br> * Block Scoping
+<br> * Block Scoping: encapsulation
+<br> * Block Scoping: explicit let block
 
 **Closures**
 Closure is when a function “remembers” the variables outside of it, even if you pass that function elsewhere.<br>
