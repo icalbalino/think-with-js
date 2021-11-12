@@ -64,3 +64,29 @@ kesimpulan :
 <br> == is about comparisons with known type(s), optionally where conversions are helpful.
 <br> You simply cannot write quality JS programs without knowing the types involved in your operations.
 
+### 2. Scope / Closures
+- Nested Scope 
+- Closure
+
+what does **scope** mean? <br>
+it means where the JavaScript engine looks for things. where in memory that is.
+
+**Undefined vs. Undeclared** <br>
+undefined is a variable that has been declared, but it doesn't have a value. and then 
+undeclared is a variable that was never declared anywhere.
+
+**Function Expressions**
+function expression is a function that is assigned as a value someware
+<br>* Named function expressions
+<br>* Anonymous function expressions
+<br>* Arrow Functions
+<br>* [Function Scoping: IIFE](https://benalman.com/news/2010/11/immediately-invoked-function-expression/)
+<br>* Block Scoping
+<br>* Block Scoping: encapsulation
+<br>* Block Scoping: explicit let block
+
+**Closures**
+Closure is when a function “remembers” the variables outside of it, even if you pass that function elsewhere.<br>
+Closure without understanding scope is actually not understanding closure.
+
+here more about [Scope & Closures](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures)
