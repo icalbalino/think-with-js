@@ -111,3 +111,7 @@ here more about [Scope & Closures](https://github.com/getify/You-Dont-Know-JS/tr
 **class { }**
 <br>The class keyword is layered on top of the prototype system and the class keyword syntax that looks a lot more like the class designs that we normally do in C++ or Java.
 <br>ES6 class
+
+**Penutup Three Pillars JS**
+<br> There is no substitute in learning JavaScript other than just writing the JavaScript!
+<br> The best way to learn JS is to get in and write it!
