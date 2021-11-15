@@ -90,3 +90,24 @@ Closure is when a function “remembers” the variables outside of it, even if 
 Closure without understanding scope is actually not understanding closure.
 
 here more about [Scope & Closures](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures)
+
+### 3. this / Prototypes
+- this 
+- Prototypes 
+- class { } 
+
+**this: dynamic context**
+<br> A function's this references the execution context for that call, determined entirely by <u>how the function was called<u>. 
+<br> A dynamic context means that we can change, use the same function but change what context it is. based upon how we call the function. that makes it much more flexible and reusable
+
+**prototypes system**
+<br>* prototype: as "classes"
+<br>* instances
+<br>* class
+<br>* constructor
+<br>* this keyword
+<br>* new keyword
+
+**class { }**
+<br>The class keyword is layered on top of the prototype system and the class keyword syntax that looks a lot more like the class designs that we normally do in C++ or Java.
+<br>ES6 class
